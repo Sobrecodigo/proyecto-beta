@@ -1,0 +1,9 @@
+{
+  "status": "error",
+  "message": "No se pudo completar la operación.",
+  "data": {},
+  "code": 500,
+  "meta": {
+    "timestamp": "2023-08-02T12:45:00Z"
+  }
+}
