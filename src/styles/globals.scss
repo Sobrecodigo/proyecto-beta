@@ -1,4 +1,45 @@
 :root {
+  font-size: 0.625rem;
+  $static-size: 0.4rem;
+  --p10: hsl(280, 60, 10);
+  --p40: hsl(280, 60, 40);
+  --p90: hsl(280, 60, 90);
+  --p100: hsl(280, 60, 100);
+  --s10: hsl(250, 60, 10);
+  --s40: hsl(250, 60, 40);
+  --s90: hsl(250, 60, 90);
+  --s100: hsl(250, 60, 100);
+  --t10: hsl(310, 60, 10);
+  --t40: hsl(310, 60, 40);
+  --t90: hsl(310, 60, 90);
+  --t100: hsl(310, 60, 100);
+  --g10: hsl(228, 5, 10);
+  --g40: hsl(228, 5, 40);
+  --g90: hsl(228, 5, 90);
+  --g100: hsl(2828 65 100);
+  --icon-sm: calc($static-size * 4);
+  --icon-md: calc($static-size * 6);
+  --icon-lg: calc($static-size * 8);
+  --font-size-sm: 1rem;
+  --font-size-md: calc($static-size * 3);
+  --font-size-sh: calc($static-size * 4);
+  --font-size-hd: calc($static-size * 5);
+  --border-radius-sm: calc($static-size * 2);
+  --border-radius-md: calc($static-size * 3);
+  --border-radius-lg: calc($static-size * 4);
+  --border-sm: 0.1rem solid var(--p40);
+  --border-md: 0.2rem solid var(--p40);
+  --border-lg: 0.3rem solid var(--p40);
+  --padding-sm: calc($static-size * 1);
+  --padding-md: calc($static-size * 2);
+  --padding-lg: calc($static-size * 3);
+  --margin-sm: calc($static-size * 1);
+  --margin-md: calc($static-size * 2);
+  --margin-lg: calc($static-size * 3);
+  --gap-sm: calc($static-size * 1);
+  --gap-md: calc($static-size * 2);
+  --gap-lg: calc($static-size * 3);
+
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
