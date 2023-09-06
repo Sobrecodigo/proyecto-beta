@@ -1,0 +1,25 @@
+.button {
+  display: flex;
+  background-color: var(--p40);
+  padding: var(--padding-md) var(--padding-lg);
+  gap: var(--gap-sm);
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-radius-sm);
+  color: var(--p90);
+  font-weight: 600;
+  span {
+    text-transform: uppercase;
+  }
+  .icon {
+    width: var(--icon-md);
+    height: var(--icon-md);
+    color: var(--p90);
+  }
+  &:hover {
+    background-color: var(--p50);
+    .icon {
+      color: var(--p100);
+    }
+  }
+}
