@@ -253,3 +253,65 @@ export const CircleLeftIcon = ({ className }: IconProps): ReactElement => (
     />
   </svg>
 );
+
+export const RadioCheckIcon = ({ className }: IconProps): ReactElement => (
+  <svg
+    className={className}
+    fill="currentColor"
+    viewBox="0 0 16 16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path 
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M1.33 8a6.67 6.67 0 1 0 13.34 0A6.67 6.67 0 0 0 1.33 8ZM8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z"
+    />
+    <path d="M3 8a5 5 0 1 1 10 0A5 5 0 0 1 3 8Z"/>
+  </svg>
+);
+
+export const RadioUncheckIcon = ({ className }: IconProps): ReactElement => (
+  <svg
+    className={className}
+    fill="currentColor"
+    viewBox="0 0 16 16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fillRule="evenodd"
+      clip-rule="evenodd"
+      d="M1.33 8a6.67 6.67 0 1 0 13.34 0A6.67 6.67 0 0 0 1.33 8ZM8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z"
+    />
+  </svg>
+);
+
+export const CheckboxCheckIcon = ({ className }: IconProps): ReactElement => (
+  <svg
+    className={className}
+    fill="currentColor"
+    viewBox="0 0 16 16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M12 1.33H4A2.67 2.67 0 0 0 1.33 4v8c0 1.47 1.2 2.67 2.67 2.67h8c1.47 0 2.67-1.2 2.67-2.67V4c0-1.47-1.2-2.67-2.67-2.67ZM4 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4Z"
+    />
+    <path d="M3 5c0-1.1.9-2 2-2h6a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5Z"/>
+  </svg>
+);
+
+export const CheckboxUncheckIcon = ({ className }: IconProps): ReactElement => (
+  <svg
+    className={className}
+    fill="currentColor"
+    viewBox="0 0 16 16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M12 1.33H4A2.67 2.67 0 0 0 1.33 4v8c0 1.47 1.2 2.67 2.67 2.67h8c1.47 0 2.67-1.2 2.67-2.67V4c0-1.47-1.2-2.67-2.67-2.67ZM4 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4Z"
+    />
+  </svg>
+);
