@@ -8,7 +8,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background-color: rgb(21, 25, 25);
+  background-color: var(--p90);
 }
 a {
   color: inherit;
@@ -40,8 +40,14 @@ a {
   appearance: none;
 }
 
-button,
 input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0 var(--padding-md);
+
+}
+button {
   background-color: transparent;
   border: none;
   outline: none;

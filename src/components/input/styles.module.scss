@@ -1,0 +1,56 @@
+.input {
+  display: flex;
+  padding: var(--padding-md);
+  background-color: var(--p100);
+  border-radius: var(--border-radius-md);
+  color: var(--p10);
+  border: 0.1rem solid var(--p40);
+  align-items: center;
+  gap: var(--gap-md);
+  .icon,
+  button {
+    width: var(--icon-sm);
+    height: var(--icon-sm);
+    color: var(--p40);
+    padding: 0;
+  }
+  input {
+    height: var(--icon-sm);
+    border-radius: 0;
+    border-left: 0.1rem solid var(--p40);
+    text-transform: capitalize;
+    width: auto;
+  }
+}
+.inputPass {
+  input {
+    text-transform: none !important;
+  }
+}
+.inputCheckbox,
+.inputRadio {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-md);
+  div {
+    width: var(--icon-sm);
+    height: var(--icon-sm);
+    color: var(--p40);
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  input {
+    opacity: 0;
+    z-index: 1;
+    position: inherit;
+    width: var(--icon-sm);
+    height: var(--icon-sm);
+  }
+}
