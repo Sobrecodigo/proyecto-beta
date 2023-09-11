@@ -279,7 +279,7 @@ export const RadioUncheckIcon = ({ className }: IconProps): ReactElement => (
   >
     <path
       fillRule="evenodd"
-      clip-rule="evenodd"
+      clipRule="evenodd"
       d="M1.33 8a6.67 6.67 0 1 0 13.34 0A6.67 6.67 0 0 0 1.33 8ZM8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z"
     />
   </svg>
